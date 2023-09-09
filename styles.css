@@ -2,7 +2,6 @@
 .star {
 	position: relative;
   width: 0;
-  height: 0;
   
 	border-right: 50px solid transparent;
   border-bottom: 100px  solid rgb(255, 255, 0);
@@ -11,12 +10,8 @@
   /* Controlls the size of the stars. */
   font-size: 54px;
 	 
-  &:before {
+  &:after {
     content: '';
-    
-    display: block;
-    width: 0;
-    height: 0;
     
     position: absolute;
     top: 30px;
